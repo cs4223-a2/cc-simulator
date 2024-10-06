@@ -1,3 +1,5 @@
+/input/*.data
+
 # unzipped data
 *.data
 

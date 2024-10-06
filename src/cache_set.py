@@ -36,5 +36,6 @@ class Cache_set:
 
         self.cache.move_to_end(tag)
         if len(self.cache) > self.capacity:
+            # write back logic? involving bus
             self.cache.popitem(last=False)
         return cycles, is_cache_hit
